@@ -5,7 +5,8 @@ let holly = 'Holly Unlikely'
 let amol = 'Amol Shookup'
 let ahmed = 'Ahmed Yahya'
 let ado = 'Adam Marwan'
-let nadi = 'Nadia bilal'
+
+
 const element = (
     <ul style={{'color':'blue', 'fontSize': '24px'}}>
         <li>{sally}</li>
@@ -14,7 +15,8 @@ const element = (
         <li>{amol}</li>
         <li>{ahmed}</li>
         <li>{ado}</li>
-        <li>{nadi}</li>
+        
+
     </ul>
 )
 ReactDOM.render(element, document.getElementById('content'))
